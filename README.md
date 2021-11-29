@@ -41,5 +41,16 @@ CI реализован на базе **Gitlab CI**
 ### 4. Конфигурация k8s  
 Организация мониторинга выполнена с помощью установки [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus)  
 
+*Манифесты приложения (Deployment, Service)* -> [Gitlab](https://gitlab.com/antonseliverstof/devops-test-app)  
+
+![alt text](default_ns.png "Namespace")  
+
 *Веб-интерфейс **Grafana** доступен по адресу*:  
 http://13.49.78.171:32183/  
+![alt text](grafana.png "Grafana")  
+
+
+*Приложение доступно по адресу*:  
+http://13.49.78.171:31499/  
+![alt text](app.png "App")  
+
