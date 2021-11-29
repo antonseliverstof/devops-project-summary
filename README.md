@@ -40,3 +40,6 @@ CI реализован на базе **Gitlab CI**
 
 ### 4. Конфигурация k8s  
 Организация мониторинга выполнена с помощью установки [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus)  
+
+*Веб-интерфейс **Grafana** доступен по адресу*:  
+http://13.49.78.171:32183/  
