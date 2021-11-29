@@ -1,23 +1,27 @@
-### Devops Project
+## Devops Project
 
-#### 1. AWS Infrastructure with Terraform  
+### 1. AWS Infrastructure with Terraform  
 Конфигурационные файлы **Terraform**:
 ```
 https://github.com/antonseliverstof/devops_terraform
 ```  
 В качестве бекэнда используется **Terraform Cloud**:  
 ![alt text](terraform_cloud.png "Terraform_Cloud")  
-
-#### 2. Kubernetes Cluster  
+*Примененная конфигурация*:  
+![alt text](tfcloud_apply.png "Apply")  
+### 2. Kubernetes Cluster  
 Кластер **Kubernetes** создан при помощи **Kubespray**:
-```
 ```  
 
+```  
+*Установка k8s*   
+![alt text](kubespray.png "Kubespray")  
 
 
 
 
-#### 3. Simple Test App  
+
+### 3. Simple Test App  
 ```
 https://gitlab.com/antonseliverstof/devops-test-app  
 https://hub.docker.com/repository/docker/antonseliverstof/devops-test-app
