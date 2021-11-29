@@ -12,10 +12,12 @@ https://github.com/antonseliverstof/devops_terraform
 ### 2. Kubernetes Cluster  
 Кластер **Kubernetes** создан при помощи **Kubespray**:
 ```  
-
+https://github.com/antonseliverstof/devops-kubespray  
 ```  
 *Установка k8s*   
 ![alt text](kubespray.png "Kubespray")  
+*Список Подов кластера*:  
+![alt text](k8s_pods.png "Pods")  
 
 
 
