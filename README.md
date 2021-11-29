@@ -19,10 +19,6 @@ https://github.com/antonseliverstof/devops-kubespray
 *Список Подов кластера*:  
 ![alt text](k8s_pods.png "Pods")  
 
-
-
-
-
 ### 3. Simple Test App  
 ```
 https://gitlab.com/antonseliverstof/devops-test-app  
@@ -41,3 +37,6 @@ https://hub.docker.com/repository/docker/antonseliverstof/devops-test-app
 CI реализован на базе **Gitlab CI**  
 ![alt text](ci_pipelines_list.png "Pipelines")  
 ![alt text](ci_jobs.png "Jobs")  
+
+### 4. Конфигурация k8s  
+Организация мониторинга выполнена с помощью установки [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus)  
